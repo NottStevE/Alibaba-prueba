@@ -1,0 +1,141 @@
+.fondo{
+    width: 100%;
+    height: 100%;
+    background-color: var(--colorFondo);
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caja_login{
+    width: 50rem;
+    height: 45rem;
+    background-color: #ffffff;
+
+    display: flex;
+    flex-direction: row;
+
+    border-radius: 0.5rem;
+}
+.barra_azul{
+    width: 3rem;
+    height: 100%;
+    background-color: var(--colorAzul);
+
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.caja_formulario{
+    width: 100%;
+    height: 100%;
+    padding: 5rem;
+}
+.titulo{
+    color: var(--colorAzul);
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+label h3{
+    color: var(--colorGris);
+    font-size: 1.1rem;
+}
+#inputUsuario{
+    margin-top: 1rem;
+    height: 4rem;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: var(--colorGrisClaro);
+    color: var(--colorGris);
+    padding-left: 0.5rem;
+}
+#inputContrasenna{
+    margin-top: 1rem;
+    height: 4rem;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: var(--colorGrisClaro);
+    color: var(--colorGris);
+    padding-left: 0.5rem;
+}
+.boton{
+    width: 100%;
+    height: 4rem;
+    margin-top: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--colorAzul);
+    color: #fff;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.contraseñaCorrecta{
+    color: rgb(48, 153, 48);
+    font-size: 13px;
+    margin-top: 1rem;
+    display: none;
+}
+.contraseñaIncorrecta{
+    color: rgb(224, 49, 49);
+    font-size: 13px;
+    margin-top: 1rem;
+    display: none;
+}
+.contraseñaCorrecta2{
+    display: block;
+}
+.contraseñaIncorrecta2{
+    display: block;
+}
+.Nocontraseña{
+    color: rgb(228, 228, 44);
+    font-size: 13px;
+    margin-top: 1rem;
+    display: none;
+}
+.Nocontraseña2{
+    display: block;
+}
+
+
+.contraseñaInputCorrecta{
+    color: rgb(48, 153, 48);
+    font-size: 13px;
+    margin-top: 1rem;
+    display: none;
+}
+.contraseñaInputIncorrecta{
+    color: rgb(224, 49, 49);
+    font-size: 13px;
+    margin-top: 1rem;
+    display: none;
+}
+.contraseñaInputCorrecta2{
+    display: block;
+}
+.contraseñaInputIncorrecta2{
+    display: block;
+}
+.NocontraseñaInput{
+    color: rgb(228, 228, 44);
+    font-size: 13px;
+    margin-top: 1rem;
+    display: none;
+}
+.NocontraseñaInput2{
+    display: block;
+}

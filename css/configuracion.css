@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+:root{
+    --colorFondo: #97DAF1;
+    --colorAzul: #5184F2;
+    --colorGris: rgb(71, 71, 71);
+    --colorGrisClaro: #E5E5E5;
+}

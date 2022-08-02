@@ -45,7 +45,6 @@ export function loginForm(){
                 }else{
                     contraseñaIncorrecta();
                 }
-                break;
             }
         }
     }

@@ -1,4 +1,4 @@
-let userCreditcard = [
+export let userCreditcard = [
     [100,   '2.56324E+15'],
     [101,   '1.35632E+15'],
     [102,   '6.84323E+15'],

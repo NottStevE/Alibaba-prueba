@@ -1,4 +1,4 @@
-let orden = [
+export let orden = [
     [1000,  4,  7,  0.0925, 50.02,	'2018-10-17',   '2018-10-20',	'Anna Addison',	    '1325 Candy Rd, San Francisco, CA 96123',	'ZW60001',  1],
     [1000,	4,	7,	0.0925,	50.02,	'2018-10-17',	'2018-10-20',	'Anna Addison'	    ,'1325 Candy Rd, San Francisco, CA 96123',	'ZW60001', 	1],
     [1001,	5,	8,	0.06,	62.45,	'2018-10-15',	'2018-10-18',	'Carol Campbell'	,'1931 Brown St, Gainesville, FL 85321'	,   'AB61001', 	0],

@@ -1,4 +1,4 @@
-let orderUser = [
+export let orderUser = [
     [100,	1000], 
     [101,	1001], 
     [102,	1002], 

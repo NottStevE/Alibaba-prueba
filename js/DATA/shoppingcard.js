@@ -1,4 +1,4 @@
-let shopping = [
+export let shopping = [
     [3000,	1],
     [3100,	1],
     [3200,	0],

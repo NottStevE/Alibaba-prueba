@@ -9,9 +9,9 @@ import { colocarContraseña } from "./administrador.js";
 
 export let caja_formulario = document.getElementById("caja_formulario");
 export let menuI = document.getElementById("menu");
-let botonRegresar = document.getElementById("botonVolver");
 export let fondo = document.getElementById("fondo");
 export let cajaDatos = document.getElementById("datosAlibaba");
+export let botonLogin = document.getElementById("botonLogin");
 
 export function loginForm(){
     function loginOff(){
@@ -48,12 +48,5 @@ export function loginForm(){
             }
         }
     }
-    function loginOn(){
-        caja_formulario.classList.remove('desactivar');
-        menuI.classList.remove('activar');
-        fondo.classList.remove('fondoInterfaz');
-        cajaDatos.classList.remove('activar');
-    }
     botonLogin.addEventListener('click', loginOff)
-    botonRegresar.addEventListener('click', loginOn);
 }

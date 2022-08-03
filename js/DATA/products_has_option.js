@@ -1,4 +1,4 @@
-let productsOption = [
+export let productsOption = [
     [1200,	1201,	3,	1299,	1,	'Macbook Pro 13.3-inch (diagonal) LED-backlit display with IPS technology; 2560-by-1600 native resolution at 227 pixels'],
     [1200,	1202,	2,	2199,	0,	'Macbook Pro 15.4-inch (diagonal) LED-backlit display with IPS technology; 2880-by-1800 native resolution at 220 pixels'],
     [1300,	1301,	1,	999,	0,	'Macbook Air 11.6-inch (diagonal) LED-backlit glossy widescreen display with support for millions of colors'],

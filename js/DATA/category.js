@@ -1,4 +1,4 @@
-let category = [
+export let category = [
     [4000,	'Laptops'],
     [4100,	'Mobile phones'],
     [4200,	'Tablets'],

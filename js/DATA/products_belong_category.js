@@ -1,4 +1,4 @@
-let productsBelong = [
+export let productsBelong = [
     [1200,	4000],
     [1300,	4000],
     [1400,	4100],

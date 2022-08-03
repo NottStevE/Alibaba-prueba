@@ -1,4 +1,4 @@
-let product = [
+export let product = [
     [5000,	1200],    
     [5000,	1300],    
     [5100,	1400],    

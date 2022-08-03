@@ -16,7 +16,6 @@
     top: 0;
     right: 0;
     left: 0;
-    cursor: pointer;
 }
 #botonVolver{
     width: 10rem;
@@ -26,6 +25,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    cursor: pointer;
 }
 .volver{
     margin: 0 0 0.6rem 0;
@@ -58,4 +58,45 @@
 
     border-bottom-left-radius: 0.5rem;
     border-top-left-radius: 0.5rem;
+}
+#root_botones{
+    width: 100%;
+    height: 100%;
+    font-size: 1.5rem;
+    color: var(--colorGris);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#root_botones div{
+    width: 8rem;
+    height: 5rem;
+    margin: 0.5rem;
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    border: 1px solid var(--colorAzul);
+    border-radius: 0.5rem;
+}
+.datos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--colorGris);
+    font-size: 1.5rem;
+    height: auto;
+}
+table{
+    border: 1px solid var(--colorAzul);
+    text-align: center;
+}
+td{
+    padding: 0.2rem;
 }

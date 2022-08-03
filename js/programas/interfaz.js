@@ -51,6 +51,7 @@ export function panelDeContenido(){
         menuI.classList.remove('activar');
         fondo.classList.remove('fondoInterfaz');
         cajaDatos.classList.remove('activar');
+        root_contenido.classList.remove('datos');
     }
     function funcionCarts(){
         root_contenido.innerHTML = '<table border="1">' + 
@@ -116,6 +117,99 @@ export function panelDeContenido(){
         '<tr>' + '<td>' + userCreditcard[6][0] + '</td>' + '<td>' + userCreditcard[6][1] + '</td>' + '</tr>' +
      '</table>';
     }
+    function funcionOption(){
+        root_contenido.innerHTML = '<table border="1">' + 
+        '<tr>' + '<td>' + option[0][0] + '</td>' + '<td>' + option[0][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + option[1][0] + '</td>' + '<td>' + option[1][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + option[2][0] + '</td>' + '<td>' + option[2][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + option[3][0] + '</td>' + '<td>' + option[3][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + option[4][0] + '</td>' + '<td>' + option[4][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + option[5][0] + '</td>' + '<td>' + option[5][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + option[6][0] + '</td>' + '<td>' + option[6][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + option[7][0] + '</td>' + '<td>' + option[7][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + option[8][0] + '</td>' + '<td>' + option[8][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + option[9][0] + '</td>' + '<td>' + option[9][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + option[10][0] + '</td>' + '<td>' + option[10][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + option[11][0] + '</td>' + '<td>' + option[11][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + option[12][0] + '</td>' + '<td>' + option[12][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + option[13][0] + '</td>' + '<td>' + option[13][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + option[14][0] + '</td>' + '<td>' + option[14][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + option[15][0] + '</td>' + '<td>' + option[15][1] + '</td>' + '</tr>' +
+     '</table>';
+    }
+    function funcionOrden(){
+        root_contenido.innerHTML = '<table border="1">' + 
+        '<tr>' + '<td>' + orden[0][0] + '</td>' + '<td>' + orden[0][1] + '</td>' + '<td>' + orden[0][2] + '</td>' + '<td>' + orden[0][3] + '</td>' + '<td>' + orden[0][4] + '</td>' + '<td>' + orden[0][5] + '</td>' + '<td>' + orden[0][6] + '</td>' + '<td>' + orden[0][7] + '</td>' + '<td>' + orden[0][8] + '</td>' + '<td>' + orden[0][9] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + orden[1][0] + '</td>' + '<td>' + orden[1][1] + '</td>' + '<td>' + orden[1][2] + '</td>' + '<td>' + orden[1][3] + '</td>' + '<td>' + orden[1][4] + '</td>' + '<td>' + orden[1][5] + '</td>' + '<td>' + orden[1][6] + '</td>' + '<td>' + orden[1][7] + '</td>' + '<td>' + orden[1][8] + '</td>' + '<td>' + orden[1][9] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + orden[2][0] + '</td>' + '<td>' + orden[2][1] + '</td>' + '<td>' + orden[2][2] + '</td>' + '<td>' + orden[2][3] + '</td>' + '<td>' + orden[2][4] + '</td>' + '<td>' + orden[2][5] + '</td>' + '<td>' + orden[2][6] + '</td>' + '<td>' + orden[2][7] + '</td>' + '<td>' + orden[2][8] + '</td>' + '<td>' + orden[2][9] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + orden[3][0] + '</td>' + '<td>' + orden[3][1] + '</td>' + '<td>' + orden[3][2] + '</td>' + '<td>' + orden[3][3] + '</td>' + '<td>' + orden[3][4] + '</td>' + '<td>' + orden[3][5] + '</td>' + '<td>' + orden[3][6] + '</td>' + '<td>' + orden[3][7] + '</td>' + '<td>' + orden[3][8] + '</td>' + '<td>' + orden[3][9] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + orden[4][0] + '</td>' + '<td>' + orden[4][1] + '</td>' + '<td>' + orden[4][2] + '</td>' + '<td>' + orden[4][3] + '</td>' + '<td>' + orden[4][4] + '</td>' + '<td>' + orden[4][5] + '</td>' + '<td>' + orden[4][6] + '</td>' + '<td>' + orden[4][7] + '</td>' + '<td>' + orden[4][8] + '</td>' + '<td>' + orden[4][9] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + orden[5][0] + '</td>' + '<td>' + orden[5][1] + '</td>' + '<td>' + orden[5][2] + '</td>' + '<td>' + orden[5][3] + '</td>' + '<td>' + orden[5][4] + '</td>' + '<td>' + orden[5][5] + '</td>' + '<td>' + orden[5][6] + '</td>' + '<td>' + orden[5][7] + '</td>' + '<td>' + orden[5][8] + '</td>' + '<td>' + orden[5][9] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + orden[6][0] + '</td>' + '<td>' + orden[6][1] + '</td>' + '<td>' + orden[6][2] + '</td>' + '<td>' + orden[6][3] + '</td>' + '<td>' + orden[6][4] + '</td>' + '<td>' + orden[6][5] + '</td>' + '<td>' + orden[6][6] + '</td>' + '<td>' + orden[6][7] + '</td>' + '<td>' + orden[6][8] + '</td>' + '<td>' + orden[6][9] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + orden[7][0] + '</td>' + '<td>' + orden[7][1] + '</td>' + '<td>' + orden[7][2] + '</td>' + '<td>' + orden[7][3] + '</td>' + '<td>' + orden[7][4] + '</td>' + '<td>' + orden[7][5] + '</td>' + '<td>' + orden[7][6] + '</td>' + '<td>' + orden[7][7] + '</td>' + '<td>' + orden[7][8] + '</td>' + '<td>' + orden[7][9] + '</td>' + '</tr>' +
+     '</table>';
+    }
+    function funcionOrder(){
+        root_contenido.innerHTML = '<table border="1">' + 
+        '<tr>' + '<td>' + order[0][0] + '</td>' + '<td>' + order[0][1] + '</td>' + '<td>' + order[0][2] + '</td>' + '<td>' + order[0][3] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + order[1][0] + '</td>' + '<td>' + order[1][1] + '</td>' + '<td>' + order[1][2] + '</td>' + '<td>' + order[1][3] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + order[2][0] + '</td>' + '<td>' + order[2][1] + '</td>' + '<td>' + order[2][2] + '</td>' + '<td>' + order[2][3] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + order[3][0] + '</td>' + '<td>' + order[3][1] + '</td>' + '<td>' + order[3][2] + '</td>' + '<td>' + order[3][3] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + order[4][0] + '</td>' + '<td>' + order[4][1] + '</td>' + '<td>' + order[4][2] + '</td>' + '<td>' + order[4][3] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + order[5][0] + '</td>' + '<td>' + order[5][1] + '</td>' + '<td>' + order[5][2] + '</td>' + '<td>' + order[5][3] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + order[6][0] + '</td>' + '<td>' + order[6][1] + '</td>' + '<td>' + order[6][2] + '</td>' + '<td>' + order[6][3] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + order[7][0] + '</td>' + '<td>' + order[7][1] + '</td>' + '<td>' + order[7][2] + '</td>' + '<td>' + order[7][3] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + order[8][0] + '</td>' + '<td>' + order[8][1] + '</td>' + '<td>' + order[8][2] + '</td>' + '<td>' + order[8][3] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + order[9][0] + '</td>' + '<td>' + order[9][1] + '</td>' + '<td>' + order[9][2] + '</td>' + '<td>' + order[9][3] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + order[10][0] + '</td>' + '<td>' + order[10][1] + '</td>' + '<td>' + order[10][2] + '</td>' + '<td>' + order[10][3] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + order[11][0] + '</td>' + '<td>' + order[11][1] + '</td>' + '<td>' + order[11][2] + '</td>' + '<td>' + order[11][3] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + order[12][0] + '</td>' + '<td>' + order[12][1] + '</td>' + '<td>' + order[12][2] + '</td>' + '<td>' + order[12][3] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + order[13][0] + '</td>' + '<td>' + order[13][1] + '</td>' + '<td>' + order[13][2] + '</td>' + '<td>' + order[13][3] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + order[14][0] + '</td>' + '<td>' + order[14][1] + '</td>' + '<td>' + order[14][2] + '</td>' + '<td>' + order[14][3] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + order[15][0] + '</td>' + '<td>' + order[15][1] + '</td>' + '<td>' + order[15][2] + '</td>' + '<td>' + order[15][3] + '</td>' + '</tr>' +
+     '</table>';
+    }
+    function funcionProductsBelong(){
+        root_contenido.innerHTML = '<table border="1">' + 
+        '<tr>' + '<td>' + productsBelong[0][0] + '</td>' + '<td>' + productsBelong[0][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + productsBelong[1][0] + '</td>' + '<td>' + productsBelong[1][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + productsBelong[2][0] + '</td>' + '<td>' + productsBelong[2][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + productsBelong[3][0] + '</td>' + '<td>' + productsBelong[3][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + productsBelong[4][0] + '</td>' + '<td>' + productsBelong[4][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + productsBelong[5][0] + '</td>' + '<td>' + productsBelong[5][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + productsBelong[6][0] + '</td>' + '<td>' + productsBelong[6][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + productsBelong[7][0] + '</td>' + '<td>' + productsBelong[7][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + productsBelong[8][0] + '</td>' + '<td>' + productsBelong[8][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + productsBelong[9][0] + '</td>' + '<td>' + productsBelong[9][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + productsBelong[10][0] + '</td>' + '<td>' + productsBelong[10][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + productsBelong[11][0] + '</td>' + '<td>' + productsBelong[11][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + productsBelong[12][0] + '</td>' + '<td>' + productsBelong[12][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + productsBelong[13][0] + '</td>' + '<td>' + productsBelong[13][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + productsBelong[14][0] + '</td>' + '<td>' + productsBelong[14][1] + '</td>' + '</tr>' +
+     '</table>';
+    }
+    function funcionShoppingcard(){
+        root_contenido.innerHTML = '<table border="1">' + 
+        '<tr>' + '<td>' + shopping[0][0] + '</td>' + '<td>' + shopping[0][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + shopping[1][0] + '</td>' + '<td>' + shopping[1][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + shopping[2][0] + '</td>' + '<td>' + shopping[2][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + shopping[3][0] + '</td>' + '<td>' + shopping[3][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + shopping[4][0] + '</td>' + '<td>' + shopping[4][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + shopping[5][0] + '</td>' + '<td>' + shopping[5][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + shopping[6][0] + '</td>' + '<td>' + shopping[6][1] + '</td>' + '</tr>' +
+     '</table>';
+    }
+    function funcionVendor(){
+        root_contenido.innerHTML = '<table border="1">' + 
+        '<tr>' + '<td>' + vendor[0][0] + '</td>' + '<td>' + vendor[0][1] + '</td>' + '<td>' + vendor[0][2] + '</td>' + '<td>' + vendor[0][3] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + vendor[1][0] + '</td>' + '<td>' + vendor[1][1] + '</td>' + '<td>' + vendor[1][2] + '</td>' + '<td>' + vendor[1][3] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + vendor[2][0] + '</td>' + '<td>' + vendor[2][1] + '</td>' + '<td>' + vendor[2][2] + '</td>' + '<td>' + vendor[2][3] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + vendor[3][0] + '</td>' + '<td>' + vendor[3][1] + '</td>' + '<td>' + vendor[3][2] + '</td>' + '<td>' + vendor[3][3] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + vendor[4][0] + '</td>' + '<td>' + vendor[4][1] + '</td>' + '<td>' + vendor[4][2] + '</td>' + '<td>' + vendor[4][3] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + vendor[5][0] + '</td>' + '<td>' + vendor[5][1] + '</td>' + '<td>' + vendor[5][2] + '</td>' + '<td>' + vendor[5][3] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + vendor[6][0] + '</td>' + '<td>' + vendor[6][1] + '</td>' + '<td>' + vendor[6][2] + '</td>' + '<td>' + vendor[6][3] + '</td>' + '</tr>' +
+     '</table>';
+    }
     botonRegresar.addEventListener('click', loginOn);
     botonLogin.addEventListener('click', perfilUser);
 
@@ -124,4 +218,10 @@ export function panelDeContenido(){
     boton_orders.addEventListener('click', funcionOrders);
     boton_order_user.addEventListener('click', funcionOrderUser);
     boton_user_creditcard.addEventListener('click', funcionUserCreditcard);
+    boton_option.addEventListener('click', funcionOption);
+    boton_orden.addEventListener('click', funcionOrden);
+    boton_order.addEventListener('click', funcionOrder);
+    boton_products_belong.addEventListener('click', funcionProductsBelong);
+    boton_shopping.addEventListener('click', funcionShoppingcard);
+    boton_vendor.addEventListener('click', funcionVendor);
 }

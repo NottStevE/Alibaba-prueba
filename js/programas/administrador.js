@@ -15,7 +15,7 @@ let root_contenido = document.getElementById("root_contenido");
 
 export function interfaz(){
     caja_formulario.classList.add('desactivar');
-    root_contenido.classList.add('datos')
+    root_contenido.classList.add('datos');
     menuI.classList.add('activar');
     fondo.classList.add('fondoInterfaz');
     cajaDatos.classList.add('activar');

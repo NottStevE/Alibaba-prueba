@@ -210,6 +210,62 @@ export function panelDeContenido(){
         '<tr>' + '<td>' + vendor[6][0] + '</td>' + '<td>' + vendor[6][1] + '</td>' + '<td>' + vendor[6][2] + '</td>' + '<td>' + vendor[6][3] + '</td>' + '</tr>' +
      '</table>';
     }
+    function funcionProduct(){
+        root_contenido.innerHTML = '<table border="1">' + 
+        '<tr>' + '<td>' + product[0][0] + '</td>' + '<td>' + product[0][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + product[1][0] + '</td>' + '<td>' + product[1][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + product[2][0] + '</td>' + '<td>' + product[2][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + product[3][0] + '</td>' + '<td>' + product[3][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + product[4][0] + '</td>' + '<td>' + product[4][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + product[5][0] + '</td>' + '<td>' + product[5][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + product[6][0] + '</td>' + '<td>' + product[6][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + product[7][0] + '</td>' + '<td>' + product[7][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + product[8][0] + '</td>' + '<td>' + product[8][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + product[9][0] + '</td>' + '<td>' + product[9][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + product[10][0] + '</td>' + '<td>' + product[10][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + product[11][0] + '</td>' + '<td>' + product[11][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + product[12][0] + '</td>' + '<td>' + product[12][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + product[13][0] + '</td>' + '<td>' + product[13][1] + '</td>' + '</tr>' +
+     '</table>';
+    }
+    function funcionProductsOption(){
+        root_contenido.innerHTML = '<table border="1">' + 
+        '<tr>' + '<td>' + productsOption[0][0] + '</td>' + '<td>' + productsOption[0][1] + '</td>' + '<td>' + productsOption[0][2] + '</td>' + '<td>' + productsOption[0][3] + '</td>' + '<td>' + productsOption[0][4] + '</td>' + '<td>' + productsOption[0][5] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + productsOption[1][0] + '</td>' + '<td>' + productsOption[1][1] + '</td>' + '<td>' + productsOption[1][2] + '</td>' + '<td>' + productsOption[1][3] + '</td>' + '<td>' + productsOption[1][4] + '</td>' + '<td>' + productsOption[1][5] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + productsOption[2][0] + '</td>' + '<td>' + productsOption[2][1] + '</td>' + '<td>' + productsOption[2][2] + '</td>' + '<td>' + productsOption[2][3] + '</td>' + '<td>' + productsOption[2][4] + '</td>' + '<td>' + productsOption[2][5] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + productsOption[3][0] + '</td>' + '<td>' + productsOption[3][1] + '</td>' + '<td>' + productsOption[3][2] + '</td>' + '<td>' + productsOption[3][3] + '</td>' + '<td>' + productsOption[3][4] + '</td>' + '<td>' + productsOption[3][5] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + productsOption[4][0] + '</td>' + '<td>' + productsOption[4][1] + '</td>' + '<td>' + productsOption[4][2] + '</td>' + '<td>' + productsOption[4][3] + '</td>' + '<td>' + productsOption[4][4] + '</td>' + '<td>' + productsOption[4][5] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + productsOption[5][0] + '</td>' + '<td>' + productsOption[5][1] + '</td>' + '<td>' + productsOption[5][2] + '</td>' + '<td>' + productsOption[5][3] + '</td>' + '<td>' + productsOption[5][4] + '</td>' + '<td>' + productsOption[5][5] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + productsOption[6][0] + '</td>' + '<td>' + productsOption[6][1] + '</td>' + '<td>' + productsOption[6][2] + '</td>' + '<td>' + productsOption[6][3] + '</td>' + '<td>' + productsOption[6][4] + '</td>' + '<td>' + productsOption[6][5] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + productsOption[7][0] + '</td>' + '<td>' + productsOption[7][1] + '</td>' + '<td>' + productsOption[7][2] + '</td>' + '<td>' + productsOption[7][3] + '</td>' + '<td>' + productsOption[7][4] + '</td>' + '<td>' + productsOption[7][5] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + productsOption[8][0] + '</td>' + '<td>' + productsOption[8][1] + '</td>' + '<td>' + productsOption[8][2] + '</td>' + '<td>' + productsOption[8][3] + '</td>' + '<td>' + productsOption[8][4] + '</td>' + '<td>' + productsOption[8][5] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + productsOption[9][0] + '</td>' + '<td>' + productsOption[9][1] + '</td>' + '<td>' + productsOption[9][2] + '</td>' + '<td>' + productsOption[9][3] + '</td>' + '<td>' + productsOption[9][4] + '</td>' + '<td>' + productsOption[9][5] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + productsOption[10][0] + '</td>' + '<td>' + productsOption[10][1] + '</td>' + '<td>' + productsOption[10][2] + '</td>' + '<td>' + productsOption[10][3] + '</td>' + '<td>' + productsOption[10][4] + '</td>' + '<td>' + productsOption[10][5] + '</td>' + '</tr>' +
+     '</table>';
+    }
+    function funcionProducts(){
+        root_contenido.innerHTML = '<table border="1">' + 
+        '<tr>' + '<td>' + products[0][0] + '</td>' + '<td>' + products[0][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + products[1][0] + '</td>' + '<td>' + products[1][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + products[2][0] + '</td>' + '<td>' + products[2][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + products[3][0] + '</td>' + '<td>' + products[3][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + products[4][0] + '</td>' + '<td>' + products[4][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + products[5][0] + '</td>' + '<td>' + products[5][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + products[6][0] + '</td>' + '<td>' + products[6][1] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + products[7][0] + '</td>' + '<td>' + products[7][1] + '</td>' + '</tr>' +
+     '</table>';
+    }
+    function funcionUsers(){
+        root_contenido.innerHTML = '<table border="1">' + 
+        '<tr>' + '<td>' + users[0][0] + '</td>' + '<td>' + users[0][1] + '</td>' + '<td>' + users[0][2] + '</td>' + '<td>' + users[0][3] + '</td>' + '<td>' + users[0][4] + '</td>' + '<td>' + users[0][5] + '</td>' + '<td>' + users[0][6] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + users[1][0] + '</td>' + '<td>' + users[1][1] + '</td>' + '<td>' + users[1][2] + '</td>' + '<td>' + users[1][3] + '</td>' + '<td>' + users[1][4] + '</td>' + '<td>' + users[1][5] + '</td>' + '<td>' + users[1][6] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + users[2][0] + '</td>' + '<td>' + users[2][1] + '</td>' + '<td>' + users[2][2] + '</td>' + '<td>' + users[2][3] + '</td>' + '<td>' + users[2][4] + '</td>' + '<td>' + users[2][5] + '</td>' + '<td>' + users[2][6] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + users[3][0] + '</td>' + '<td>' + users[3][1] + '</td>' + '<td>' + users[3][2] + '</td>' + '<td>' + users[3][3] + '</td>' + '<td>' + users[3][4] + '</td>' + '<td>' + users[3][5] + '</td>' + '<td>' + users[3][6] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + users[4][0] + '</td>' + '<td>' + users[4][1] + '</td>' + '<td>' + users[4][2] + '</td>' + '<td>' + users[4][3] + '</td>' + '<td>' + users[4][4] + '</td>' + '<td>' + users[4][5] + '</td>' + '<td>' + users[4][6] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + users[5][0] + '</td>' + '<td>' + users[5][1] + '</td>' + '<td>' + users[5][2] + '</td>' + '<td>' + users[5][3] + '</td>' + '<td>' + users[5][4] + '</td>' + '<td>' + users[5][5] + '</td>' + '<td>' + users[5][6] + '</td>' + '</tr>' +
+        '<tr>' + '<td>' + users[6][0] + '</td>' + '<td>' + users[6][1] + '</td>' + '<td>' + users[6][2] + '</td>' + '<td>' + users[6][3] + '</td>' + '<td>' + users[6][4] + '</td>' + '<td>' + users[6][5] + '</td>' + '<td>' + users[6][6] + '</td>' + '</tr>' +
+     '</table>';
+    }
     botonRegresar.addEventListener('click', loginOn);
     botonLogin.addEventListener('click', perfilUser);
 
@@ -224,4 +280,8 @@ export function panelDeContenido(){
     boton_products_belong.addEventListener('click', funcionProductsBelong);
     boton_shopping.addEventListener('click', funcionShoppingcard);
     boton_vendor.addEventListener('click', funcionVendor);
+    boton_product.addEventListener('click', funcionProduct);
+    boton_products_option.addEventListener('click', funcionProductsOption);
+    boton_products.addEventListener('click', funcionProducts);
+    boton_users.addEventListener('click', funcionUsers);
 }
